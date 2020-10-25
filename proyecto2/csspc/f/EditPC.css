@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.titu h2{
+    color:black;
+    text-align: center;
+    
+}
+
+body{ 
+    background-image: url(ima/final.jpg);
+    font-family: Arial;
+    
+}
+.comp{
+    font-family:'Impact', sans-serif;
+    font-size:50px;
+    font-weight: normal;
+    background: #ccc;
+    text-shadow: 0 3px #F14B4B, 0 0 5px #F36D67;
+    width: 700px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+.prin img{
+    width: 1300px;
+    height: 300px;
+    border-radius: 60px;
+}
+.compu{
+    transition: all .3s;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #eee;
+    margin: 30px;   
+    height:450px;
+    width:400px;
+    overflow: hidden;
+    display: inline-block;
+}
+.compu h4{
+	text-align: center;
+	font-weight: 600px;
+}
+.compu img{
+	width: 289px;
+	height: 250px;
+}
+.compu:hover{
+    transition: all .3s;
+	transform: translateY(-15px);
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.095)
+}
+
+.compu button{
+    font-size: 26px;
+    background: #CCFF66;
+    cursor: pointer;
+    
+}
+.compu button:hover{
+    background-color: #3e8341;
+    transition-duration: 2s;
+    
+}
+
+.prin3{
+    height: 20px;
+}
+
+.abajoxx{
+    border:none;
+    margin:1780px;
+    margin-top:125px;
+    font-size:20px;
+    background:#ABEBC6;
+    cursor: pointer;
+    font-family: 'Open sans';
+    border-radius: 8px;
+    position:absolute;
+    width:80px;
+}
+
+.irarriba{
+    border:none;
+    margin-top: 30px;
+    color: #000;
+    text-decoration: none;
+    margin-left: 670px;
+    font-size:20px;
+    background:#ABEBC6;
+    cursor: pointer;
+    font-family: 'Open sans';
+    border-radius: 8px;
+    position:absolute;
+    width:80px;
+}
+.autor{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Open sans';
+    color: #efe45d;
+}
+
+
+.redes{
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    
+}
+
+.redes>a{
+    display: block;
+    width: 50px;
+    padding: 10px;    
+}
+
+.redes a:hover{
+    background: rgba(0.9,0,0,0.8);
+    border-radius: 20px;
+}
+.butodown{
+
+}

@@ -1,0 +1,90 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.titu img{
+   width: 1300px;
+    height: 300px;
+    border-radius: 60px;
+    
+}
+
+.principio h1{
+    text-shadow: 0 3px #FF0000, 0 0 5px #0000FF;
+    color: black;
+    text-align: center;
+    margin-left: 40px auto;
+    margin-right: auto;
+    margin:auto;
+    background: #fff;
+}
+
+body{
+    background-image: url(celulares/kven.jpg);
+    font-family: Arial;
+}
+
+.fon{
+	margin:25px;
+	display: inline-block;
+	width: 330px;
+	height: 500px;
+	border-radius: 8px;
+	background-color: #eee;
+	text-align: center;
+	transition: all .5s;
+}
+.fon h4{
+	text-align: center;
+	font-weight: 600px;
+}
+.fon img{
+	width: 289px;
+	height: 250px;
+}
+.fon:hover{
+	transform: translateY(20px);
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.095);
+    cursor: pointer;
+}
+
+.fon button{
+    font-size: 26px;
+    background: #CCFF66;
+  cursor: pointer;
+    }
+.fon button:hover{
+    background-color: #3e8e41;
+    transition-duration: 2s;
+}
+.prin{
+    height: 20px;
+}
+
+.down button{
+    font-size: 99px;
+    background: #CCFF66;
+    cursor: pointer;
+    font-family: 'Open sans';
+    border-radius: 8xp;
+}
+.down button:hover{
+    background-color: #3e8e41;
+    transition-duration: 2s;
+    
+    }
+
+.up button{
+    font-size: 50px;
+    background: #CCFF66;
+  cursor: pointer;
+     font-family: 'Open sans';
+    border-radius: 8xp;
+}
+.up button:hover{
+    background-color: #3e8e41;
+    transition-duration: 2s;
+    
+    }
+    

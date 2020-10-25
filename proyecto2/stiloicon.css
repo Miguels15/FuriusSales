@@ -1,0 +1,18 @@
+#icon-inicio{
+	display: none;
+}
+.containericon{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+.redes a{
+	display: block;
+	text-decoration: none;
+	background: #cc2b2bdd;
+	color: #fff;
+	width: 55px;
+	height: 55px;
+	line-height: 50px;
+	text-align: center;
+}

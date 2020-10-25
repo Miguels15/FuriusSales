@@ -1,0 +1,91 @@
+body{
+    background-image: url(imagenes/fondo.jpg);
+    padding: 50px;
+}
+
+
+form{
+    width: 30%;
+    border-radius: 8px;
+    margin: auto;
+    padding: 25px;
+    background: rgba(0,0,0,0.4);
+}
+label{
+    font-size: 20px;
+    display: block;
+    width: 50%;
+    color: #FFFFFF;
+}
+input{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+
+
+#boton{
+    background-color: #2E64FE;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Baloo Tammudu 2', cursive;
+
+}
+#boton:hover{
+    cursor: pointer;
+    background-color: skyblue;
+    color: black;
+}
+option{
+    background: rgba(0,0,0,0.4)
+}
+
+
+.re{
+    width: 40px;
+    height: 40px;
+}
+
+.red{
+    width: 40px;
+    height: 40px;
+}
+
+.rels{
+    display: inline-block
+}
+input{
+    position: relative;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+label{
+    position: absolute;
+    border-radius: 8px;
+}
+
+.image{
+    width: 60px;;
+    padding: 0px;
+}
+
+.sexo{
+    font-family: 'Baloo Tammudu 2', cursive;
+	border-radius: 8px;
+	border-color: #81C0BB;
+	margin:16px; 
+	height:20px;
+}
+
+.autor{
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: aqua;
+}

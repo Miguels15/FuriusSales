@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+    padding: 0px;
+    margin: auto;
+}
+header{
+    width: 100%;
+}
+.menu{
+    display: inline-flex;
+}
+
+.navegacion{
+    width:100%;
+    background:#D5D5D5;
+    height: 80px;
+}
+.navegacion .menu img{
+    width: 75px;
+    height: 75px; 
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu >li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu>li>a{
+    display: block;
+    padding: 10px 150px;
+    color: black;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+.menu li a:hover{
+    transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+    position: absolute;
+    display:block;
+    background:#D5D5D5;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+    padding: 15px;
+    color:black;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+/*Submenu de dispositivos*/
+.submenu2{
+    position: absolute;
+    background:#C6B2E1;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+    display:block;
+    padding: 15px;
+    color:black;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+.menu li:hover .submenu:hover .submenu2{
+    visibility: visible;
+    opacity: 1;
+}

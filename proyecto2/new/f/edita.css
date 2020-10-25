@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(fondo.png);
+    font-family: Arial;
+}
+
+
+.tabli {
+    margin: 30px auto; 
+    color: aliceblue;
+    text-align: center;
+    background: #ccc;
+    border-radius: 40px;
+    color: black;   
+}
+.tabli p{
+    font-size: 25px;
+}
+
+.tabli img{
+    width: 400px;
+    height: 300px;
+}
+.titi{
+    width: 950px;
+    height: 50px;
+    font-size: 39px;
+    margin: auto;
+    text-align:center;
+    border-radius: 70px;
+    background-color: #EEE;
+}
+
+.tabli #bot{
+    font-size: 26px;
+    background: #CCFF66;
+    cursor: pointer;
+    width:130px;
+}
+.tabli #bot:hover{
+    background-color: #3e8341;
+    transition-duration: 2s;
+    }
+
+
+.imena{
+    padding: 5px;
+    height: 18px;
+}

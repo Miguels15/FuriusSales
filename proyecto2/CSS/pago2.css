@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+	margin:auto;
+	padding:0px; 
+}
+body{
+	background-image:url(fondo.jpg); 
+	padding: 0px;
+	margin: auto;
+}
+.prin3{
+	height: 20px;
+}
+.pago{
+	padding-top: 25px;
+	box-shadow: -1px 2px 20px 5px rgba(98,104,110,1);
+	margin: 30px auto; 
+	height: 600px;
+	width: 450px;
+	background-color: #eee;
+}
+.pinput{
+	font-family: 'Roboto', sans-serif;
+	padding-top: 20px;
+	padding-left:100px;
+}
+input[type="text"]{
+	width: 190px;
+	height: 40px;
+	margin-left: 100px;
+}
+input[type="date"]{
+	width: 190px;
+	height: 40px;
+	margin-left: 100px;
+}
+input[class="text2"]{
+	width: 100px;
+	height: 40px;
+	margin-left: 100px;
+}
+.pago a{
+	margin-left: 100px;
+}
+input[type="submit"]{
+	cursor: pointer;
+	border:none; 
+	background-color:#85C1E9;
+	margin-top: 10px;
+	width: 100px;
+	height: 40px;
+	margin-left: 100px;
+}
+.infop{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+input[type="button"]{
+	border: none;
+	background-color: #85C1E9;
+	margin-left: 100px;
+}
+.pago2{
+	width: 250px;
+	height: 100px;
+	background-color:#eee;
+}
+.img1{
+	margin-left: 10px;
+	height:50px;
+	width: 60px;
+}
+input[class="ocul"]{
+	border: none;
+	background-color: #85C1E9;
+	margin-left:2px;
+}
+.pago a{
+	margin: 3px;
+	display:inline-block;
+}
+.autor{
+	padding-top:13em;
+	cursor: pointer;
+	color:#CAA34F;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+	text-align: center;
+}

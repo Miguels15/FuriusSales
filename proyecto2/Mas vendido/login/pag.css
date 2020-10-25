@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+body{
+    background: url(imagenes/background.jpg);
+    background-size: 100%;
+}
+
+
+.kats{
+    width: 65%;
+    border-radius: 14px;
+    margin: auto;
+    padding: 10px;
+    background: rgba(0.8,0,0.1,0.9);
+}
+
+label{
+    font-size: 20px;
+    display: block;
+    width: 30%;
+    font-family: Arial;
+    color: #ffffff;
+}
+
+.owo{
+    padding: 40px;
+}
+
+input{
+    margin-bottom: 20px;
+    border-radius: 14px;
+    
+}
+
+input:radio{
+    background-color: black;
+}
+
+#tel{
+    width: 45px;
+}
+
+img{
+    width: 60px;
+    
+}
+
+.akats{
+    width: 40%;
+    border-radius: 14px;
+    padding: 10px;
+    background-color: #efd3;
+    display:inline-block;
+}
+
+h1{
+    color: #ffffff;
+}
+
+.pagito{
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+}
+
+

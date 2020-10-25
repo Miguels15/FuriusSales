@@ -1,0 +1,2 @@
+
+.icon-inicio { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x2302;&nbsp;'); }

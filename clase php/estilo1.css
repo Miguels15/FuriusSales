@@ -1,0 +1,29 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.form{
+	height: 700px;
+	width: 600px;
+	border-radius: 15px;
+	padding: 10px;
+	margin: 30px auto;
+	background-color: #edf2d3ee;
+}
+input[type=text],[type=email]{
+	width: 550px; 
+}
+input[type=submit]{
+	border-radius:10px; 
+	margin-left: 220px;
+	border:0px;
+	font-size: 20px;
+	position: relative;
+	height: 80px;
+	width: 80px;
+	background-color:coral;
+}
+textarea{
+	height: 300px;
+	width: 550px;
+}

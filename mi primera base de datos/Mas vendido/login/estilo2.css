@@ -1,0 +1,68 @@
+body{
+    background-image: url(imagenes/fondo.jpg);
+    padding: 50px;
+}
+form{
+    width: 25%;
+    border-radius: 8px;
+    margin: auto;
+    padding: 25px;
+    background: rgba(0,0,0,0.7);
+}
+
+input{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+#boton{
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #2E64FE;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 19px;
+    border-radius: 14px;
+    text-decoration: none;
+}
+
+#boton:hover{
+    cursor: pointer;
+    background-color: aqua;
+    color:black;
+}
+.an{
+    width: 60px;;
+    padding: 0px;
+    
+}
+h1{
+    font-family: 'Baloo Tammudu 2', cursive;
+    align-content: center;
+    color: #FFFFFF;
+}
+.autoo{
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 20px;
+    text-align: center;
+    color: aqua;
+    
+}
+
+#boton2{
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #2E64FE;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 19px;
+    border-radius: 14px;
+    text-decoration: none;
+}
+
+#boton2:hover{
+    cursor: pointer;
+    background-color: aqua;
+    color:black;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css"href="pago2.css">
+	<meta charset="UTF-8">
+	<title>Información de pago</title>
+</head>
+<body>
+	<div class="pago">
+		<h2 class="infop">Información de pago</h2>
+		<p class="pinput">Nombre de la tarjeta</p>
+		<input type="text" placeholder="Ej. Erick Salazar" required="">
+
+		<p class="pinput">Numero de la tarjeta</p>
+		<input type="text" placeholder="Ej. 9988-6754-8738-2908" required="">
+
+		<br>
+
+		<p class="pinput">Fecha de vencimiento</p>
+		<input type="date" id="start" name="trip-start"
+       value="0000-0-0"
+       min="2020-11-12" max="2025-12-29" required="">
+
+       <p class="pinput">Codigo de seguridad</p>
+       <input type="text" placeholder="Ej. 404" required="" class="text2" required="">
+
+       <br><br>
+       <input type="button" value="Otros metodos de pago" onclick="mostrar();">
+       <br>
+       <div class="pago2" id="pago3">
+       	<a href="https://www.paypal.com/sv/signin" target="_blank"><img src="imagenes/pay.png" alt="PayPal" class="img1"></a>
+       	<a href="https://www.westernunion.com/us/en/web/user/login" target="_blank"><img src="imagenes/wes.png" alt="WesterUnion" class="img1"></a>
+
+
+       	<!--- JAVASCRIPT PARA OCULTAR Y MOSTRAR OTROS METODOS DE PAGO--->
+       	<script>
+
+       	function mostrar(){
+       		document.getElementById('pago3').style.display = 'block';
+       	}
+       	function ocultar(){
+       		document.getElementById('pago3').style.display = 'none';
+       	} 
+       </script>
+       <br>
+       <br>
+       	<input type="button" value="Ocultar" onclick="ocultar();" class="ocul">
+       </div>
+       <br>
+       <input type="submit" value="Comprar">
+
+       <div>
+        
+        <p class="autor">
+        	© NETSHOP <BR>
+			© Miguel Sánchez Menjívar
+		</p>
+        </div>
+       
+       
+	</div>
+</body>
+</html>

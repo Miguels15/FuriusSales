@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+*{
+	padding: 0px;
+	margin: auto;
+}
+body{
+	background-image: url(fondo.jpg);
+}
+.e_rror h1{
+	background-color: #5DC3DD;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Sansita Swashed', cursive;
+	letter-spacing:15px;
+	position: relative;
+	margin: 100px auto;
+	width: 1000px;
+	border-radius: 9px;
+}

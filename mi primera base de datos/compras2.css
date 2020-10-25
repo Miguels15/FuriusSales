@@ -1,0 +1,63 @@
+@import url(menu.css);
+@import url(SliderPagcompras.css);
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Teko:wght@300&display=swap');
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image:url(ima/final.jpg); 
+	font-family: sans-serif;
+}
+header{
+	width: 100%;
+	height: 50px;
+	background:#333;
+	color:#fff;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+}
+.mavr{
+	font-family: 'Teko', sans-serif;
+	font-size: 30px;
+	text-align: center; 
+	color:black;
+	letter-spacing: .2em;
+	background-color: #eee;
+}
+.cardinicio{
+	display:inline-block;
+	margin: 25px;
+	text-align:center;
+	background-color: #eee;
+	border-radius: 8px;
+	width: 250px;
+	height: 450px;
+	overflow: hidden;
+	box-shadow:0 0 5px 0 rgba(0,0,0,.095);
+	transition: all .5s;
+}
+.cardinicio h4{/*con esto estamos llamando al h4 que esta dentro del div container y el div card*/
+	text-align: center;
+	font-weight: 600px;
+}
+
+.cardinicio img{
+	width: 250px;
+	height: 250px;
+}
+.cardinicio:hover{
+	transform: translateY(-20px);
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.095)
+}
+
+
+
+
+
+
+

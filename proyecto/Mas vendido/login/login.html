@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="icon" type="ima/jpg" href="imagenes/logobanner.jpg">
+	<title>Login</title>
+</head>
+<body>
+	<div class="login">
+		<img src="imagenes/persona.png">
+		<h2>Inicio De Sesión</h2>
+		<br>
+		<label>Digite su correo electrónico</label>
+		<br>
+		<input class="correocontrainput" type="text" name="correo" pattern=" [a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"  id="email" placeholder="Ejemplo1@mls.com" />
+		<br>
+		<label>Digite su contraseña</label>
+		<input class="correocontrainput" type="text" name="contraseña" pattern="[A-Za-z]{3}" id="password" placeholder="* * * * * * *">
+		<br>
+		<a class="olvido" href="olvidodeclave.html">¿Olvidaste tu contraseña?</a>
+		<a class="olvido" href="registro.html">Registrate</a>
+		<br>
+		<br>
+		<div class="envio">
+		<a class="envio" href="pago.html">Iniciar Sesión</a>
+		</div>
+	</div>
+	<p class="autor">© Miguel Sánchez Menjívar</p>
+</body>
+</html>

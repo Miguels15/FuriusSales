@@ -1,0 +1,62 @@
+body{
+    background-image: url(ima/mision.jpeg);
+    background-size: 100%;
+}
+.colorful{
+    padding: 200px;
+    overflow: hidden;
+    
+}
+
+
+.mision{
+    
+    float: left;
+    padding: 20px;
+    color: #fff;
+    width: 300px;
+    margin: 40px;
+    background: #039;
+    height: 325px;
+}
+
+.vision{
+    
+    float: right;
+    padding: 20px;
+    color: #fff;
+    width: 300px;
+    margin: 40px;
+    background: #039;
+    height: 325px;
+}
+.mv{
+
+    padding-top: 15px;
+    color:#DFC139;
+    font-size: 40px;
+    text-align: center;
+}
+
+.redes{
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    
+}
+
+.redes>a{
+    display: block;
+    width: 50px;
+    padding: 10px;
+    
+}
+
+.redes a:hover{
+    background: rgba(0.9,0,0,0.8);
+    border-radius: 20px;
+}
+
+.ima{
+    height: 20px;
+}

@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+*{
+	padding:0px;
+	margin: 0px; 
+}
+body{
+	background-image: url(final.jpg); 
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+	letter-spacing: 0.03em;
+	line-height: 1.6;
+}
+.ropita{
+	padding-top: 3px;
+	font-family: 'Baloo Tammudu 2', cursive;
+	text-align: center;/*para el texto centrado*/
+	background-color:#eee;/*el color de fondo de titulo ropa*/
+	height: 50px;/*espacio del fondo del titulo ropa*/
+	width: 100%;/*ancho del fondo del titulo ropa*/
+	border-radius: 20px;/*borde redondo en el titulo*/
+	letter-spacing: 0.5px;/*Espacio entre letra*/
+	color:black;
+}
+.container{
+	width: 100%;
+	height:430px;
+	display:inline-flex;
+	flex-wrap: wrap;/*Los elementos son colocados en variaslineas*/
+	justify-content: center;/* Alinear items en el centro */
+	margin: auto;
+}
+.container .card{
+	background-color: #fff;
+	width: 250px;/*ancho de las tarjetas*/
+	height: 430px;/*alto de las tarjetas*/
+	border-radius:8px;/*borde redondo de las tarjetas*/
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.095);/*caja de sombra de las tarjetas*/
+	overflow: hidden;/*para que todo lo que este afuera de las tarjetas no se muestre*/
+	margin: 20px;/*para que el margen entre las imagenes sea de 20px*/
+	text-align:center;/*para que todo el texto adentro de las tarjetas sea centrado*/
+	transition: all 0.25s;/*la transicion que tendra la tarjeta a la hora de poner el mouse encima*/
+}
+.container .card:hover{/*hover es el comando para cuando el mouse este encima*/
+	transform: translateY(-15px);/*esto es para que cuando pongamos el mouse en la tarjeta se eleve 15px hacia arriba*/
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.095)
+}
+.container .card img{/*con esto estamos llamando a la imagen que esta adentro del div container y adentro del div card*/
+	width: 250px;
+	height: 250px;
+}
+.container .card h4{/*con esto estamos llamando al h4 que esta dentro del div container y el div card*/
+	font-weight: 600px;
+}
+.container .card p{/*esto es para llamar el parrafo que esta dentro del div container y el div card*/
+font-weight:500;
+text-decoration:none;
+color:#3498db;  
+}
+/*MENU GENERAL*/
+.nav{
+	width: 500px;
+	margin: 30px auto;/*este margen del menu, es para que se centre en la pagina*/
+	background-color: #eee;
+}
+.nav ul{/*con esto estamos llamando a lista desordenada del nav*/
+	list-style: none;/*para que se quiten los putnos de listas*/
+
+}
+.menuropa>li{/*con esto estamos llamando a la lista ordenada del menuropa*/
+	position: relative;
+	display: inline-block;
+}
+.menuropa>li>a{¨/*con esto estamos llamando al menu ropa a la lista ordenada y al enlace a*/
+	display: block;
+	padding: 15px 20px;
+	color:#353535;
+	font-family: sans-serif;
+	text-decoration:none; 
+}
+.menuropa li a:hover{/*con esto estamos llamando al menuropa y a la lista ordenada y la etiqueta a.
+ el hover es para que el menu despliegue el submenu en la categoria de niños*/
+	color:#5F6E9A;
+	transition: all .3s;
+}
+.submenuniños{
+	position:absolute;/*para que los apartados del submenuniños quede hacia abajo*/
+	background-color:#97C6F3;
+	width:100px;/*este ancho es para la parte que despliega cuando se pone el mouse en niños*/
+	display: none;
+}
+.submenuniños li a{
+	display: block;
+	padding: 15px;
+	color:#fff;
+	text-decoration:none;
+}
+.menuropa li:hover .submenuniños {
+	display: block;
+
+}
+
+.niños1{
+	font-family: 'Permanent Marker', cursive;
+	background-color: #efefef;
+	text-align: center;
+	color:black;
+	margin: 30px auto;
+	width: 90%;
+	border-radius: 100px; 
+}
+.ninasmenu{
+	position:absolute;/*para que los apartados del submenuniños quede hacia abajo*/
+	background-color: #97C6F3;
+	width:100px;/*este ancho es para la parte que despliega cuando se pone el mouse en niños*/
+	display: none;
+}
+.ninasmenu li a{
+	display: block;
+	padding: 15px;
+	color:#fff;
+	text-decoration:none;
+}
+.menuropa li:hover .ninasmenu {
+	display: block;
+
+}
+.niñassolo{
+	font-family: 'Permanent Marker', cursive;
+	background-color: #efefef;
+	text-align: center;
+	color:black;
+	margin: 30px auto;
+	width: 90%; 
+	border-radius: 100px;
+}
+.jeansn1{
+	font-family: 'Permanent Marker', cursive;
+	background-color: #efefef;
+	text-align: center;
+	color:black;
+	margin: 30px auto;
+	width: 90%;
+	border-radius: 100px;
+}
+.jeanninas{
+	font-family: 'Permanent Marker', cursive;
+	background-color:#eee;
+	text-align: center;
+	color:black;
+	margin: 30px;
+	width: 90%; 
+	border-radius: 100px;
+}
+
+
+
+
+
+
+
+.container .card{
+	background-color: #fff;
+	width: 250px;/*ancho de las tarjetas*/
+	height: 550px;/*alto de las tarjetas*/
+	border-radius:8px;/*borde redondo de las tarjetas*/
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.095);/*caja de sombra de las tarjetas*/
+	overflow: hidden;/*para que todo lo que este afuera de las tarjetas no se muestre*/
+	margin: 20px;/*para que el margen entre las imagenes sea de 20px*/
+	text-align:center;/*para que todo el texto adentro de las tarjetas sea centrado*/
+	transition: all 0.25s;/*la transicion que tendra la tarjeta a la hora de poner el mouse encima*/
+}
+.container .card:hover{/*hover es el comando para cuando el mouse este encima*/
+	transform: translateY(-15px);/*esto es para que cuando pongamos el mouse en la tarjeta se eleve 15px hacia arriba*/
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.095)
+}
+.container .card img{/*con esto estamos llamando a la imagen que esta adentro del div container y adentro del div card*/
+	width: 250px;
+	height: 300px;
+}
+.container .card h4{/*con esto estamos llamando al h4 que esta dentro del div container y el div card*/
+	font-weight: 600px;
+}
+.container .card p{/*esto es para llamar el parrafo que esta dentro del div container y el div card*/
+font-weight:500;
+text-decoration:none;
+color:#3498db;  
+}
+
+
+
+.adulto1{
+	font-family: 'Permanent Marker', cursive;
+	background-color: #eee;
+	text-align: center;;
+	width: 100%; 
+	border-radius: 
+	
+}
+.adultohca{
+	font-family: 'Permanent Marker', cursive;
+	background-color: #efefef;
+	text-align: center;
+	color:black;
+	margin: 30px auto;
+	width: 90%; 
+	border-radius:100px;
+
+
+}
+.hmenu{
+	position:absolute;/*para que los apartados del submenuniños quede hacia abajo*/
+	background-color:#97C6F3;
+	width:100px;/*este ancho es para la parte que despliega cuando se pone el mouse en niños*/
+	display: none;
+
+}
+.hmenu li a{
+	display: block;
+	padding: 15px;
+	color:#fff;
+	text-decoration:none;
+}
+.menuropa li:hover .hmenu {
+	display: block;
+
+}
+.adulto2{
+	font-family: 'Permanent Marker', cursive;
+	background-color: #efefef;
+	text-align: center;
+	color:black;
+	margin: 30px auto;
+	width: 100%; 
+	
+}
+.mumenu{
+	position:absolute;/*para que los apartados del submenuniños quede hacia abajo*/
+	background-color:#97C6F3;
+	width:100px;/*este ancho es para la parte que despliega cuando se pone el mouse en niños*/
+	display: none;
+
+}
+.mumenu li a{
+	display: block;
+	padding: 15px;
+	color:#fff;
+	text-decoration:none;
+}
+.menuropa li:hover .mumenu {
+	display: block;
+
+}
+
+.catniño{
+	font-family: 'Permanent Marker', cursive;
+	background-color: #eee;
+	font-size: 20px;
+	text-align: center;
+}
+.adultomca{
+	font-family: 'Permanent Marker', cursive;
+	background-color: #efefef;
+	text-align: center;
+	color:black;
+	margin: 30px auto;
+	width: 90%; 
+	border-radius:100px;
+
+}
+.catniña{
+	font-family: 'Permanent Marker', cursive;
+	background-color: #eee;
+	font-size: 20px;
+	text-align: center;
+	width: 100%;
+}
+.adultohj{
+		font-family: 'Permanent Marker', cursive;
+	background-color: #efefef;
+	text-align: center;
+	color:black;
+	margin: 30px auto;
+	width: 90%; 
+	border-radius:100px;
+
+}
+.autor{
+	cursor: pointer;
+	color:#CAA34F;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+	text-align: center;
+}
+/*boton de ir arriba en la seccion de ropa*/
+
+
+.lio{
+    width: 30px;
+}
+
+.redes{
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    
+}
+
+.redes>a{
+    display: block;
+    width: 50px;
+    padding: 10px;
+    
+}
+
+.redes a:hover{
+    background: rgba(0.9,0,0,0.8);
+    border-radius: 20px;
+}
+.acarriba img:hover{
+	background:rgba(255,255,255, 10.9);
+	border-radius: 30px;
+}
+.acarriba2{
+	padding-left: 1800px;
+}
+.acarriba2 img:hover{
+	background:rgba(255,255,255, 10.9);
+	border-radius: 30px;
+}

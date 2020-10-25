@@ -1,0 +1,61 @@
+body{
+    background: url(imagenes/background.jpg);
+}
+
+
+.kats{
+    width: 65%;
+    border-radius: 14px;
+    margin: auto;
+    padding: 10px;
+    background: rgba(0.8,0,0.1,0.9);
+}
+
+label{
+    font-size: 20px;
+    display: block;
+    width: 30%;
+    font-family: Arial;
+    color: #ffffff;
+}
+
+.owo{
+    padding: 40px;
+}
+
+input{
+    margin-bottom: 20px;
+    border-radius: 14px;
+    
+}
+
+input:radio{
+    background-color: black;
+}
+
+#tel{
+    width: 45px;
+}
+
+img{
+    width: 60px;
+    
+}
+
+.akats{
+    width: 65%;
+    padding: 40px;
+    border-radius: 14px;
+    padding: 10px;
+    background: rgba(0.8,0,0.1,0.9);
+}
+
+h1{
+    color: #ffffff;
+}
+
+.pagito{
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+}

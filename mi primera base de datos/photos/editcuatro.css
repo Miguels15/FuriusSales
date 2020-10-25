@@ -1,0 +1,46 @@
+.{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(1cddadc826cf3c096a4ec02546124bc2.jpg);
+    font-family: Arial;
+}
+
+.tabli {
+    color: aliceblue;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 40px;
+    color: black;
+    
+}
+.tabli p{
+    font-size: 25px;
+}
+
+.tabli img{
+    width: 400px;
+    height: 300px;
+}
+.titi{
+    font-size: 39px;
+    margin: auto;
+    background: red;
+    text-align-last: center;
+    border-radius: 70px;
+    color: black;
+}
+
+.tabli #bot{
+    font-size: 26px;
+    background: #CCFF66;
+    cursor: pointer;
+    width: 700px
+    
+}
+.tabli #bot:hover{
+    background-color: #3e8341;
+    transition-duration: 2s;
+    }

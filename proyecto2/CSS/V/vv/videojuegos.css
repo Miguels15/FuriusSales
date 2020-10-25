@@ -1,0 +1,231 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-image: url(final.jpg);
+}
+
+.navegacion{
+	padding: 20px;
+	background: linear-gradient(to right, rgb(224, 244, 244), rgb(146, 57, 255)); 
+    height: 65px;
+    margin: 30px auto;
+    width: 580px;
+	border-radius: 15px;
+}
+
+.menu>li>a{
+    display: inline-block;
+    padding: 10px 15px;
+    color: yellow;
+    font-family: 'Open sans';
+    text-decoration: none;
+    font-size: 20px;
+	text-align: center;
+	font-style:italic;
+	text-decoration: none;
+    
+}
+
+.menu{
+	padding-right: 410px;
+    position: absolute; 
+    
+}
+.menu >li{
+    position:relative;
+    display: inline-block;
+}
+
+.juegos{
+	background-color: #fff;
+	border-radius: 10px;
+	margin: 5px;
+	display: inline-block;
+	width: 300px;
+	height: 440px;
+	padding: 5px 5px;
+	font-family: 'Tahoma', Geneva, sans-serif;
+	transition: all 0.25;
+	overflow: hidden;
+	color: black;
+	
+}
+
+.juegos:hover{
+	transform: translateY(-10px);
+	transition: all 0.50s;
+}
+.juegos p {
+	text-align:justify;
+}
+.juegos h3{
+	text-align:center;
+}
+.titulo{
+	font-size: 30px;
+	text-align: center;
+	background: linear-gradient(to right, rgb(255,91,74),rgb(68,153,249));
+	height: 40px;
+	color: #15F000;
+	font-family: 'Century Gothic', sans-serif;
+	border-radius: 45px;
+}
+.juegos img{
+	width: 225px;
+	height: 270px;
+}
+.principal{
+	background: linear-gradient(to right, rgb(65,209,255),rgb(255,255,255));
+	text-align: center;
+	font-family: 'Copperplate Gothic Light', sans-serif;
+	color: #7E00FF;
+	font-style: oblique
+}
+
+.juegos button{
+	font-size: 30px;
+    background: #C6C6C6;
+    cursor: pointer;
+	text-decoration: none;
+	border-radius: 6px;
+	font-family: 'Courier New', Courier, monospace;
+	color: #951DF8;
+	text-decoration: none;
+}
+
+.juegos button:hover{
+	background-color: #ECF17C;
+    transition-duration: 2.2s;
+}
+.transition{
+	-webkit-transform:scale(1.5); 
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+}
+.lio{
+    width: 30px;
+}
+
+.autor{
+	color: #9B39FF;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 25px;
+	text-align: center;
+}
+
+.co{
+    width: 35px;
+}
+
+div{
+    padding: 5px;
+}
+.redes{
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    
+}
+
+.redes>a{
+    display: block;
+    width: 50px;
+    padding: 10px;
+    
+}
+
+.redes a:hover{
+    background: rgba(0.9,0,0,0.8);
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+.menu1{
+    display: inline-flex;
+}
+
+.navegacion1{
+    width:100%;
+    background:#D5D5D5;
+    height: 80px;
+}
+.navegacion1 .menu1 img{
+    width: 75px;
+    height: 75px; 
+}
+
+.navegacion1 ul{
+    list-style: none;
+}
+
+.menu1 >li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu1>li>a{
+    display: block;
+    padding: 10px 150px;
+    color: black;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+.menu1 li a:hover{
+    transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu1{
+    position: absolute;
+    display:block;
+    background:#D5D5D5;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu1 li a{
+    padding: 15px;
+    color:black;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+
+.menu1 li:hover .submenu1{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+/*Submenu de dispositivos*/
+.submenu2{
+    position: absolute;
+    background:#C6B2E1;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu1 li a{
+    display:block;
+    padding: 15px;
+    color:black;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+.menu1 li:hover .submenu1:hover .submenu2{
+    visibility: visible;
+    opacity: 1;
+}
